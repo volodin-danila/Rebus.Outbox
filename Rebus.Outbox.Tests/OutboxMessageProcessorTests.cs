@@ -34,7 +34,6 @@ namespace Rebus.Outbox.Tests
 				_outboxStorage,
 				_backoffStrategy,
 				new NullLoggerFactory(),
-				TimeSpan.Zero,
 				_busDisposalCancellationTokenSource.Token);
 		}
 		
